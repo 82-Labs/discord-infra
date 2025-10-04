@@ -90,14 +90,3 @@ make ps
 make up ENV_FILE=.env.dev
 make up ENV_FILE=.env.prod
 ```
-
----
-
-## ✅ 요약
-
-* `make up` → 컨테이너 실행
-* `make down` → 컨테이너 종료
-* `make ps` → 상태 확인
-* `ENV_FILE` 값으로 **운영/개발 환경** 선택 가능
-
-```
