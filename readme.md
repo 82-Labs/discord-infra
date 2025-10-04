@@ -1,4 +1,4 @@
-````markdown
+
 # 🐳 Docker Compose Management
 
 이 프로젝트는 여러 개의 Docker Compose 파일(`base`, `jenkins` 등)을 통합하여 실행합니다.  
@@ -26,7 +26,7 @@ graph TD
     U -->|80/443| T
     T -->|HTTPS| J
     T -->|HTTPS| G
-````
+
 
 ---
 
